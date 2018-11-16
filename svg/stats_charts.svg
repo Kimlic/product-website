@@ -1,0 +1,271 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1257 655">
+
+  <script xlink:href="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js" />
+  <script type="text/javascript">
+    (function () {
+      "use strict";
+
+      function init(){
+        var rects = document.getElementsByClassName('bar');
+        var redLine = document.getElementById('red_line');
+        var redDot = document.getElementById('Group_3200');
+
+        new TimelineMax().from(rects, 3, {height:0, y:566});
+        new TimelineMax().from(redLine, 1, {autoAlpha:0, delay:3});
+        new TimelineMax().set(redDot, {autoAlpha:0}).to(redDot, .5, {autoAlpha:1}).to(redDot, .5, {autoAlpha:0}).repeat(-1);
+      
+      }
+
+      window.addEventListener('load', init);
+    }());
+  </script>
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        opacity: 0.848;
+      }
+
+      .cls-2 {
+        fill: #ebf5ff;
+        opacity: 0.673;
+      }
+
+      .cls-10, .cls-14, .cls-17, .cls-18, .cls-23, .cls-3 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #e9eefd;
+      }
+
+      .cls-4 {
+        fill: #7c7c7c;
+        font-size: 18px;
+      }
+
+      .cls-11, .cls-12, .cls-15, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        font-family: Muli;
+      }
+
+      .cls-5 {
+        fill: #797979;
+        font-size: 16px;
+      }
+
+      .cls-11, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill: #3e3e3e;
+      }
+
+      .cls-6 {
+        font-size: 24px;
+      }
+
+      .cls-11, .cls-12, .cls-15, .cls-6, .cls-7, .cls-8, .cls-9 {
+        letter-spacing: -0.025em;
+      }
+
+      .cls-7 {
+        font-size: 54px;
+      }
+
+      .cls-12, .cls-15, .cls-8 {
+        font-size: 20px;
+      }
+
+      .cls-9 {
+        font-size: 30px;
+      }
+
+      .cls-10 {
+        stroke: #dfe7fe;
+      }
+
+      .cls-11 {
+        font-size: 48px;
+      }
+
+      .cls-12 {
+        fill: #8eaaff;
+      }
+
+      .cls-13 {
+        fill: #b2c5ff;
+      }
+
+      .cls-14 {
+        stroke: #b2c5ff;
+        stroke-width: 3px;
+      }
+
+      .cls-15, .cls-16 {
+        fill: #4880ff;
+      }
+
+      .cls-17 {
+        stroke: #4880ff;
+        stroke-width: 2px;
+      }
+
+      .cls-18 {
+        stroke: #0077f0;
+      }
+
+      .cls-19 {
+        fill: #c6c6c6;
+      }
+
+      .cls-20 {
+        fill: #bedfff;
+      }
+
+      .cls-21, .cls-22 {
+        fill: #fc5b3d;
+      }
+
+      .cls-21 {
+        opacity: 0.268;
+      }
+
+      .cls-23 {
+        stroke: #fc5b3d;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <g id="Stats_charts" transform="translate(-137 -121)">
+    <rect id="Rectangle_2038" data-name="Rectangle 2038" class="cls-1" width="1257" height="655" rx="7" transform="translate(137 121)"/>
+    <g id="Group_2940" data-name="Group 2940" transform="translate(122 -95)">
+      <rect id="Rectangle_2065" data-name="Rectangle 2065" class="cls-2" width="98" height="300" transform="translate(554 377)"/>
+      <line id="Line_944" data-name="Line 944" class="cls-3" x2="1142.536" transform="translate(90.5 676.5)"/>
+      <line id="Line_945" data-name="Line 945" class="cls-3" x2="1142.536" transform="translate(90.5 616.5)"/>
+      <line id="Line_946" data-name="Line 946" class="cls-3" x2="1142.536" transform="translate(90.5 556.5)"/>
+      <line id="Line_947" data-name="Line 947" class="cls-3" x2="1142.536" transform="translate(90.5 496.5)"/>
+      <line id="Line_948" data-name="Line 948" class="cls-3" x2="1142.536" transform="translate(90.5 436.5)"/>
+      <line id="Line_949" data-name="Line 949" class="cls-3" x2="1142.536" transform="translate(90.5 376.5)"/>
+      <text id="June_02_04_06_08_10_12_14_16_18_20_22_24_26_28_June_30" data-name="June 02       04            06            08            10            12            14            16            18            20            22            24            26            28  June 30" class="cls-4" transform="translate(104 702)"><tspan x="0" y="21" xml:space="preserve">June 02       04            06            08            10            12            14            16            18            20            22            24            26            </tspan></text>
+      <text id="_100_80_60_40_20_0_" data-name="100
+80
+60
+40
+20
+0
+" class="cls-5" transform="translate(53 363)"><tspan x="0" y="19">100</tspan><tspan x="0" y="79">80</tspan><tspan x="0" y="139">60</tspan><tspan x="0" y="199">40</tspan><tspan x="0" y="259">20</tspan><tspan x="0" y="319">0</tspan></text>
+    </g>
+    <text id="June" class="cls-6" transform="translate(1261 198)"><tspan x="0" y="28">June</tspan></text>
+    <text id="_23.00695" data-name="23.00695" class="cls-7" transform="translate(175 178)"><tspan x="0" y="64">23.00695</tspan></text>
+    <text id="KIM" class="cls-8" transform="translate(411.984 210)"><tspan x="0" y="24">KIM</tspan></text>
+    <text id="Current_Balance" data-name="Current Balance" class="cls-9" transform="translate(174 142)"><tspan x="0" y="35">Current Balance</tspan></text>
+    <g id="orange_notifier_vertical_lines" transform="translate(0 18)">
+      <line id="Line_960" data-name="Line 960" class="cls-10" y1="301" transform="translate(399.5 262.5)"/>
+      <line id="Line_967" data-name="Line 967" class="cls-10" y1="301" transform="translate(489.5 262.5)"/>
+      <line id="Line_968" data-name="Line 968" class="cls-10" y1="301" transform="translate(579.5 262.5)"/>
+      <line id="Line_969" data-name="Line 969" class="cls-10" y1="301" transform="translate(676.5 262.5)"/>
+      <line id="Line_970" data-name="Line 970" class="cls-10" y1="301" transform="translate(773.5 262.5)"/>
+      <line id="Line_971" data-name="Line 971" class="cls-10" y1="301" transform="translate(863.5 262.5)"/>
+      <line id="Line_962" data-name="Line 962" class="cls-10" y1="301" transform="translate(960.5 262.5)"/>
+      <line id="Line_972" data-name="Line 972" class="cls-10" y1="301" transform="translate(1057.5 262.5)"/>
+      <line id="Line_973" data-name="Line 973" class="cls-10" y1="301" transform="translate(1151.5 262.5)"/>
+      <line id="Line_974" data-name="Line 974" class="cls-10" y1="301" transform="translate(1248.5 262.5)"/>
+      <line id="Line_963" data-name="Line 963" class="cls-10" y1="280" transform="translate(1276.5 283.5)"/>
+      <line id="Line_961" data-name="Line 961" class="cls-10" y1="301" transform="translate(303.5 262.5)"/>
+    </g>
+    <g id="declined_identity" transform="translate(1115.211 74)">
+      <text id="_4.30329" data-name="4.30329" class="cls-11" transform="translate(-54 592)"><tspan x="0" y="57">4.30329</tspan></text>
+      <text id="Token_Sent" data-name="Token Sent" class="cls-12" transform="translate(-53 649)"><tspan x="0" y="24">Token Sent</tspan></text>
+      <circle id="Ellipse_1445" data-name="Ellipse 1445" class="cls-13" cx="5.5" cy="5.5" r="5.5" transform="translate(-248 592)"/>
+      <path id="Path_2519" data-name="Path 2519" class="cls-14" d="M-809.211,1877.093s22.044,6.777,31.82-2.414,19.4-30.647,28.268-29.6,21.451,19.516,21.451,19.516,7.862,15.039,18.249,6.946,27.225-13.882,33.987-13.972,16.439,1.306,20.9,3.131,9.547,7.122,14.248,7.339" transform="translate(559 -1227)"/>
+      <text id="KIM-2" data-name="KIM" class="cls-8" transform="translate(127.773 619)"><tspan x="0" y="24">KIM</tspan></text>
+    </g>
+    <g id="approved_identity" transform="translate(5 8)">
+      <g id="Group_3146" data-name="Group 3146" transform="translate(121 78)">
+        <text id="_2.00584" data-name="2.00584" class="cls-11" transform="translate(334 579)"><tspan x="0" y="57">2.00584</tspan></text>
+        <text id="Token_recieved" data-name="Token recieved" class="cls-15" transform="translate(334 634)"><tspan x="0" y="24">Token recieved</tspan></text>
+        <circle id="Ellipse_1445-2" data-name="Ellipse 1445" class="cls-16" cx="5.5" cy="5.5" r="5.5" transform="translate(138 581)"/>
+        <text id="KIM-3" data-name="KIM" class="cls-8" transform="translate(517.984 607)"><tspan x="0" y="24">KIM</tspan></text>
+      </g>
+      <path id="Path_2518" data-name="Path 2518" class="cls-17" d="M-1059.793,1849.458s22.507-12.915,36.662,0,18.223,24.992,28.518,24.623,19.709-10.173,22.873-13.769,11.717-7.694,21.139-2.454,17.364,7.945,28.435,4.855,21.117-2.869,26.946,2.622" transform="translate(1320.555 -1157.589)"/>
+      <line id="Line_957" data-name="Line 957" class="cls-18" y2="74" transform="translate(745.5 664.5)"/>
+    </g>
+    <g id="row_arrange_arrow_3" transform="translate(1225.949 424.487) rotate(-90)">
+      <g id="Group_3157" data-name="Group 3157" transform="translate(201.742 110.322)">
+        <path id="Path_5055" data-name="Path 5055" class="cls-19" d="M34.889,999.277a1.118,1.118,0,0,0,.617-.268l7.828-6.71a1.118,1.118,0,1,0-1.444-1.689L34.784,996.7l-7.106-6.092a1.118,1.118,0,1,0-1.444,1.689l7.828,6.71a1.118,1.118,0,0,0,.827.268Z" transform="translate(-25.742 -990.254)"/>
+      </g>
+    </g>
+    <g id="row_arrange_arrow_3-2" data-name="row_arrange_arrow_3" transform="translate(1343.621 2.919) rotate(90)">
+      <g id="Group_3157-2" data-name="Group 3157" transform="translate(201.742 110.322)">
+        <path id="Path_5055-2" data-name="Path 5055" class="cls-19" d="M34.889,999.277a1.118,1.118,0,0,0,.617-.268l7.828-6.71a1.118,1.118,0,1,0-1.444-1.689L34.784,996.7l-7.106-6.092a1.118,1.118,0,1,0-1.444,1.689l7.828,6.71a1.118,1.118,0,0,0,.827.268Z" transform="translate(-25.742 -990.254)"/>
+      </g>
+    </g>
+    <g id="bars" transform="translate(-4 16)">
+      <g id="Group_3166" data-name="Group 3166">
+        <rect id="Rectangle_2056" data-name="Rectangle 2056" class="cls-20 bar" width="22" height="290" transform="translate(238 274)"/>
+        <rect id="Rectangle_2057" data-name="Rectangle 2057" class="cls-16 bar" width="22" height="8" transform="translate(260 556)"/>
+      </g>
+      <g id="Group_3164" data-name="Group 3164" transform="translate(-52)">
+        <rect id="Rectangle_2063" data-name="Rectangle 2063" class="cls-20 bar" width="22" height="264" transform="translate(520 300)"/>
+        <rect id="Rectangle_2062" data-name="Rectangle 2062" class="cls-16 bar" width="22" height="8" transform="translate(542 556)"/>
+      </g>
+      <g id="Group_3167" data-name="Group 3167" transform="translate(24)">
+        <rect id="Rectangle_2063-2" data-name="Rectangle 2063" class="cls-20 bar" width="22" height="283" transform="translate(520 281)"/>
+        <rect id="Rectangle_2062-2" data-name="Rectangle 2062" class="cls-16 bar" width="22" height="20" transform="translate(542 544)"/>
+      </g>
+      <g id="Group_3168" data-name="Group 3168" transform="translate(101)">
+        <rect id="Rectangle_2063-3" data-name="Rectangle 2063" class="cls-20 bar" width="22" height="290" transform="translate(520 274)"/>
+        <rect id="Rectangle_2062-3" data-name="Rectangle 2062" class="cls-16 bar" width="22" height="22" transform="translate(542 542)"/>
+      </g>
+      <g id="Group_3169" data-name="Group 3169" transform="translate(254)">
+        <rect id="Rectangle_2063-4" data-name="Rectangle 2063" class="cls-20 bar" width="22" height="197" transform="translate(520 367)"/>
+        <rect id="Rectangle_2062-4" data-name="Rectangle 2062" class="cls-16 bar" width="22" height="44" transform="translate(542 520)"/>
+      </g>
+      <g id="Group_3199" data-name="Group 3199" transform="translate(177)">
+        <rect id="Rectangle_2063-5" data-name="Rectangle 2063" class="cls-20 bar" width="22" height="253" transform="translate(520 311)"/>
+        <rect id="Rectangle_2062-5" data-name="Rectangle 2062" class="cls-16 bar" width="22" height="30" transform="translate(542 534)"/>
+      </g>
+      <g id="Group_3170" data-name="Group 3170" transform="translate(330)">
+        <rect id="Rectangle_2063-6" data-name="Rectangle 2063" class="cls-20 bar" width="22" height="269" transform="translate(520 295)"/>
+        <rect id="Rectangle_2062-6" data-name="Rectangle 2062" class="cls-16 bar" width="22" height="63" transform="translate(542 501)"/>
+      </g>
+      <g id="Group_3171" data-name="Group 3171" transform="translate(407)">
+        <rect id="Rectangle_2063-7" data-name="Rectangle 2063" class="cls-20 bar" width="22" height="300" transform="translate(520 264)"/>
+        <rect id="Rectangle_2062-7" data-name="Rectangle 2062" class="cls-16 bar" width="22" height="73" transform="translate(542 491)"/>
+      </g>
+      <g id="Group_3172" data-name="Group 3172" transform="translate(483)">
+        <rect id="Rectangle_2063-8" data-name="Rectangle 2063" class="cls-20 bar" width="22" height="243" transform="translate(520 321)"/>
+        <rect id="Rectangle_2062-8" data-name="Rectangle 2062" class="cls-16 bar" width="22" height="106" transform="translate(542 458)"/>
+      </g>
+      <g id="Group_3173" data-name="Group 3173" transform="translate(560)">
+        <rect id="Rectangle_2063-9" data-name="Rectangle 2063" class="cls-13 bar" width="22" height="205" transform="translate(520 359)"/>
+        <rect id="Rectangle_2062-9" data-name="Rectangle 2062" class="cls-16 bar" width="22" height="107" transform="translate(542 457)"/>
+      </g>
+      <g id="Group_3174" data-name="Group 3174" transform="translate(789)">
+        <rect id="Rectangle_2063-10" data-name="Rectangle 2063" class="cls-13 bar" width="22" height="280" transform="translate(520 284)"/>
+        <rect id="Rectangle_2062-10" data-name="Rectangle 2062" class="cls-16 bar" width="22" height="98" transform="translate(542 466)"/>
+      </g>
+      <g id="Group_3197" data-name="Group 3197" transform="translate(636)">
+        <rect id="Rectangle_2063-11" data-name="Rectangle 2063" class="cls-13 bar" width="22" height="255" transform="translate(520 309)"/>
+        <rect id="Rectangle_2062-11" data-name="Rectangle 2062" class="cls-16 bar" width="22" height="107" transform="translate(542 457)"/>
+      </g>
+      <g id="Group_3198" data-name="Group 3198" transform="translate(713)">
+        <rect id="Rectangle_2063-12" data-name="Rectangle 2063" class="cls-13 bar" width="22" height="204" transform="translate(520 360)"/>
+        <rect id="Rectangle_2062-12" data-name="Rectangle 2062" class="cls-16 bar" width="22" height="107" transform="translate(542 457)"/>
+      </g>
+      <g id="Group_3163" data-name="Group 3163" transform="translate(-35)">
+        <rect id="Rectangle_2061" data-name="Rectangle 2061" class="cls-20 bar" width="22" height="286" transform="translate(426 278)"/>
+        <rect id="Rectangle_2060" data-name="Rectangle 2060" class="cls-16 bar" width="22" height="8" transform="translate(448 556)"/>
+      </g>
+      <g id="Group_3165" data-name="Group 3165" transform="translate(-17)">
+        <rect id="Rectangle_2058" data-name="Rectangle 2058" class="cls-20 bar" width="22" height="243" transform="translate(332 321)"/>
+        <rect id="Rectangle_2059" data-name="Rectangle 2059" class="cls-16 bar" width="22" height="8" transform="translate(354 556)"/>
+      </g>
+    </g>
+    <g id="red_line" transform="translate(-84 -1871)">
+      <g id="Group_3200" data-name="Group 3200" transform="translate(-2 1933)">
+        <circle id="Ellipse_1452" data-name="Ellipse 1452" class="cls-21" cx="19" cy="19" r="19" transform="translate(803 433)"/>
+        <circle id="Ellipse_1451" data-name="Ellipse 1451" class="cls-22" cx="9" cy="9" r="9" transform="translate(813 443)"/>
+      </g>
+    
+      <path id="Path_5345" data-name="Path 5345" class="cls-23" d="M4088.164,1706h296.059s32.512-1.777,43.6-5.773,49.629-8.086,63.43-4.086,59.137,11.953,103.324,0c35-9.467,43.917,1.322,58.262,4.086,3.414.657,34.02-4.086,34.02-4.086s80.331-8.12,85.3-9.09c33.159-6.469,94.174-26.272,139.422-40.859,51.594-16.633,264.844-15.945,304.754-13.156" transform="translate(-3770 688)"/>
+    </g>
+  </g>
+</svg>
